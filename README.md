@@ -2,6 +2,8 @@
 
 This repository contains a collection of **Java Spring Boot projects**, demonstrating various Spring Boot features, configurations, and dependency injection techniques. All projects are **Maven-based** and developed using **IntelliJ IDEA**, making them easy to run and explore. This repository serves as a practical learning resource and reference for students, beginners, and developers looking to understand Spring Boot concepts.
 
+Additionally, the repository includes a folder named **`Spring Jars`** which contains all the required JAR files for the projects, making it easy to run the applications without manually downloading dependencies. 🌿
+
 ## 🌿 Projects Overview 🌿
 
 1. **SpringBoot1 – XML Configuration**
@@ -32,3 +34,4 @@ This repository contains a collection of **Java Spring Boot projects**, demonstr
 - **Spring Boot 3.x**
 - **Maven** for dependency management and project builds
 - Developed in **IntelliJ IDEA**
+- Includes **Spring JAR files** in `Spring Jars` folder for offline use
