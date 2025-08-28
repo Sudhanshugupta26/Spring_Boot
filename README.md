@@ -26,6 +26,15 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    - Demonstrates **constructor-based dependency injection** using XML configuration.
    - Useful for immutable dependency design and understanding constructor DI patterns.
 
+6. **SpringBoot5 – Setter Dependency Injection (Java Configuration)**
+   - Shows **setter-based dependency injection** using a **JavaConfigFile class** (`@Configuration` and `@Bean`).
+   - Demonstrates how Spring injects dependencies into beans via **setter methods** using pure Java configuration without XML.
+
+7. **SpringBoot5b – Constructor Dependency Injection (Java Configuration)**
+   - Illustrates **constructor-based dependency injection** using a **JavaConfigFile class** (`@Configuration` and `@Bean`).
+   - Highlights best practices for **immutable dependencies** and leverages Spring’s DI capabilities through constructors in a **Java-based configuration** approach.
+
+
 ---
 
 ## 🌿 Tech Stack 🌿
