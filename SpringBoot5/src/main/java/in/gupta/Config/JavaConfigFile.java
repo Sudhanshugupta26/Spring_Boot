@@ -21,7 +21,7 @@ public class JavaConfigFile {
         Student student = new Student();
         student.setName("Sudhanshu");
         student.setRno(29);
-        student.setAddress(settingAddress());
+        student.setAddress(settingAddress());   // Setter based DI
         return student;
     }
 }

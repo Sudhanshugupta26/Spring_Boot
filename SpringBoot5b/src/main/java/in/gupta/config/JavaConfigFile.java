@@ -14,7 +14,7 @@ public class JavaConfigFile {
 
     @Bean
     public Student student() {
-        Student student = new Student("Sudhanshu", 101, settingAddress());
+        Student student = new Student("Sudhanshu", 101, settingAddress());  // Constructor based DI
         return student;
     }
 }
