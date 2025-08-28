@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="in.gupta.Student.Address" id="address1">
+        <property name="houseNo" value="811"/>
+        <property name="city" value="Lucknow"/>
+        <property name="pincode" value="223811"/>
+    </bean>
+    <bean class="in.gupta.Student.Address" id="address2" autowire-candidate="false"> <!-- now this is not participated in autowiring -->
+        <property name="houseNo" value="321"/>
+        <property name="city" value="Gorakhpur"/>
+        <property name="pincode" value="223321"/>
+    </bean>
+    <bean class="in.gupta.Student.Student" id="student" autowire="byType">
+
+<!--        This is for byName      -->
+<!--    <bean class="in.gupta.Student.Student" id="student" autowire="byName">-->
+
+<!--        This is for constructor     -->
+<!--    <bean class="in.gupta.Student.Student" id="student" autowire="constructor">-->
+<!--        <constructor-arg value="Sudhanshu" index="0"/>-->
+<!--        <constructor-arg value="82" index="1"/>-->
+
+
+        <property name="name" value="Sudhasnhu"/>
+        <property name="rno" value="81"/>
+    </bean>
+
+</beans>

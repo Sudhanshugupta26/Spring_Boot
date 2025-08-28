@@ -34,6 +34,16 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    - Illustrates **constructor-based dependency injection** using a **JavaConfigFile class** (`@Configuration` and `@Bean`).
    - Highlights best practices for **immutable dependencies** and leverages Spring’s DI capabilities through constructors in a **Java-based configuration** approach.
 
+8. **SpringBoot6 – Autowiring using Java Configuration**
+   - Demonstrates **Spring’s @Autowired annotation** for automatic dependency injection using a **JavaConfig class** (`@Configuration` and `@ComponentScan`).
+   - Shows how Spring automatically detects and injects beans into other beans via **component scanning and annotations** without XML.
+   - Includes usage of **@Qualifier annotation** to resolve ambiguity when multiple beans of the same type exist.
+
+9. **SpringBoot6b – Autowiring using XML Configuration**
+   - Illustrates **Spring’s autowiring feature** using **XML-based configuration**.
+   - Explains different autowiring modes (`byName`, `byType`, `constructor`) and how Spring wires beans automatically through XML configuration.
+   - Demonstrates the use of **`autowire-candidate="false"`** to exclude specific beans from autowiring when multiple candidates exist.
+
 
 ---
 
