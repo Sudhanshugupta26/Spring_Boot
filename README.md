@@ -44,6 +44,12 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    - Explains different autowiring modes (`byName`, `byType`, `constructor`) and how Spring wires beans automatically through XML configuration.
    - Demonstrates the use of **`autowire-candidate="false"`** to exclude specific beans from autowiring when multiple candidates exist.
 
+10. **MavenSpring1 – Spring Boot in Maven**
+   - Created a **Maven Quickstart project** in IntelliJ named `MavenSpring1`.
+   - Added **Spring Boot dependencies** in `pom.xml`.
+   - Wrote **Spring Boot programs** and ran them within the project structure.
+   - Demonstrates using Spring Boot with a **simple Maven Quickstart setup**.
+
 
 ---
 
