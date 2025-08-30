@@ -45,10 +45,10 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    - Demonstrates the use of **`autowire-candidate="false"`** to exclude specific beans from autowiring when multiple candidates exist.
 
 10. **MavenSpring1 – Spring Boot in Maven**
-   - Created a **Maven Quickstart project** in IntelliJ named `MavenSpring1`.
-   - Added **Spring Boot dependencies** in `pom.xml`.
-   - Wrote **Spring Boot programs** and ran them within the project structure.
-   - Demonstrates using Spring Boot with a **simple Maven Quickstart setup**.
+   	- Created a **Maven Quickstart project** in IntelliJ named `MavenSpring1`.
+   	- Added **Spring Boot dependencies** in `pom.xml`.
+   	- Wrote **Spring Boot programs** and ran them within the project structure.
+   	- Demonstrates using Spring Boot with a **simple Maven Quickstart setup**.
 
 11. **MavenSpring2 – Spring JDBC CRUD with Java Config**
 	- Built a **Java-based configuration** Spring application using **Maven**.
