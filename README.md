@@ -51,11 +51,11 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    - Demonstrates using Spring Boot with a **simple Maven Quickstart setup**.
 
 11. **MavenSpring2 – Spring JDBC CRUD with Java Config**
-   - Built a **Java-based configuration** Spring application using **Maven**.
-   - Implemented **CRUD operations** (Create, Read, Update, Delete) on a MySQL database using **JdbcTemplate**.
-   - Configured **Spring beans via @Configuration** (no XML) for **DataSource** and **JdbcTemplate**.
-   - Created **POJO (`Student`)**, **RowMapper (`StudentRowmapper`)**, and tested DB operations in the **main class (`App`)**.
-   - Demonstrates **Java-based Spring configuration and JDBC integration** without Spring Boot.
+	- Built a **Java-based configuration** Spring application using **Maven**.
+	- Implemented **CRUD operations** (Create, Read, Update, Delete) on a MySQL database using **JdbcTemplate**.
+	- Configured **Spring beans via @Configuration** (no XML) for **DataSource** and **JdbcTemplate**.
+	- Created **POJO (`Student`)**, **RowMapper (`StudentRowmapper`)**, and tested DB operations in the **main class (`App`)**.
+	- Demonstrates **Java-based Spring configuration and JDBC integration** without Spring Boot.
 
 
 ---
