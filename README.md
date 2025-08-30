@@ -57,6 +57,16 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
 	- Created **POJO (`Student`)**, **RowMapper (`StudentRowmapper`)**, and tested DB operations in the **main class (`App`)**.
 	- Demonstrates **Java-based Spring configuration and JDBC integration** without Spring Boot.
 
+12. MavenSpring3 – Spring JDBC Insert with Java Config (NamedParameterJdbcTemplate)
+	- Built a Java-based configuration Spring application using Maven (no XML, no Spring Boot).
+	- Wired DriverManagerDataSource and NamedParameterJdbcTemplate via @Configuration and @Bean.
+	- Demonstrates an INSERT into MySQL using named parameters (readable :key placeholders instead of ?).
+	- Main class (App) boots AnnotationConfigApplicationContext with JavaConfigFile and executes update().
+	- Configured DataSource to connect to local MySQL database spring_jdbc_db.
+	- Tech stack: Java, Maven, Spring Context 6.x, Spring JDBC 6.x, MySQL Connector/J 9.x.
+	- Highlights modern MySQL driver recommendation (com.mysql.cj.jdbc.Driver) for Connector/J 8+/9+.
+
+
 
 ---
 
