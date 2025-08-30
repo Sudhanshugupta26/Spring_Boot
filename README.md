@@ -70,6 +70,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
 ## 🌿 Tech Stack 🌿
 
 - **Java 21+**
+- **MySQL 8.4.6**
 - **Spring Boot 3.x**
 - **Maven** for dependency management and project builds
 - Developed in **IntelliJ IDEA**
