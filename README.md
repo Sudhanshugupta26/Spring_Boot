@@ -67,9 +67,6 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
 	- Highlights modern MySQL driver recommendation (com.mysql.cj.jdbc.Driver) for Connector/J 8+/9+.
 
 
-
----
-
 ## 🌿 Tech Stack 🌿
 
 - **Java 21+**
