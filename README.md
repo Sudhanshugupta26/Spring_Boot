@@ -66,6 +66,13 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
 	- Tech stack: Java, Maven, Spring Context 6.x, Spring JDBC 6.x, MySQL Connector/J 9.x.
 	- Highlights modern MySQL driver recommendation (com.mysql.cj.jdbc.Driver) for Connector/J 8+/9+.
 
+13. WebApp1 **Student Registration System – MVC Pattern with Servlets and JDBC**
+    - Designed a Java web application following the **MVC design pattern**.
+    - **Model:** Includes POJO classes and `DbConnection` utility for MySQL via JDBC.
+    - **View:** HTML files (`register.html`, `login.html`, etc.) for user interaction.
+    - **Controller:** Servlet classes (`Register`, `Login`) handle requests, coordinate with the model, and control navigation.
+    - Handles user registration and authentication by processing form data, performing database operations, and managing responses.
+    - Demonstrates modular structure, clear separation of concerns, and deployment on Tomcat using annotation-based configuration.
 
 ## 🌿 Tech Stack 🌿
 
