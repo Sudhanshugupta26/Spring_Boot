@@ -74,6 +74,18 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
     - Handles user registration and authentication by processing form data, performing database operations, and managing responses.
     - Demonstrates modular structure, clear separation of concerns, and deployment on Tomcat using annotation-based configuration.
 
+14. SpringWebMvc **Spring MVC-Based Web Application**
+
+	- Follows a clean, layered architecture with Spring Web MVC, separating concerns across presentation (JSP views), business (service logic, ready for extension), and data layers (prepared for future integration).
+	- `web.xml` acts as the Front Controller, directing requests to `MyController`, which maps and handles specific routes using annotation-based configuration.
+	- The `myds-servlet` view resolver translates logical view names from the controller into JSP files located in the views directory, ensuring flexible rendering of user interfaces.
+	- The modular structure enhances maintainability, scalability, and supports straightforward expansion for future business logic and data access needs.
+15. SpringWebMvc2 **Spring MVC-Based Web Application**
+	- Implements a clean, layered architecture with Spring Web MVC, separating concerns across the presentation layer (JSP views), controller logic, and business/data layers (ready for future extensions).
+	- `web.xml` configures the Front Controller (`DispatcherServlet`) to route incoming requests to `MyController`, which manages specific paths using annotation-based configurations.
+	- Logical view names returned by controller methods are resolved into JSP files by the view resolver, allowing for flexible and maintainable user interface rendering.
+	- Annotation-driven modular structure (`@Controller`, `@GetMapping`, `@PostMapping`, `@RequestMapping`, `@ModelAttribute`) enhances maintainability and scalability, supporting easy expansion for additional business logic or data integration.
+
 ## 🌿 Tech Stack 🌿
 
 - **Java 21+**
