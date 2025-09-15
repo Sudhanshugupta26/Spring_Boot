@@ -57,7 +57,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
 	- Created **POJO (`Student`)**, **RowMapper (`StudentRowmapper`)**, and tested DB operations in the **main class (`App`)**.
 	- Demonstrates **Java-based Spring configuration and JDBC integration** without Spring Boot.
 
-12. MavenSpring3 – Spring JDBC Insert with Java Config (NamedParameterJdbcTemplate)
+12. **MavenSpring3 – Spring JDBC Insert with Java Config (NamedParameterJdbcTemplate)**
 	- Built a Java-based configuration Spring application using Maven (no XML, no Spring Boot).
 	- Wired DriverManagerDataSource and NamedParameterJdbcTemplate via @Configuration and @Bean.
 	- Demonstrates an INSERT into MySQL using named parameters (readable :key placeholders instead of ?).
@@ -66,7 +66,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
 	- Tech stack: Java, Maven, Spring Context 6.x, Spring JDBC 6.x, MySQL Connector/J 9.x.
 	- Highlights modern MySQL driver recommendation (com.mysql.cj.jdbc.Driver) for Connector/J 8+/9+.
 
-13. WebApp1 **Student Registration System – MVC Pattern with Servlets and JDBC**
+13. **WebApp1 - Student Registration System – MVC Pattern with Servlets and JDBC**
     - Designed a Java web application following the **MVC design pattern**.
     - **Model:** Includes POJO classes and `DbConnection` utility for MySQL via JDBC.
     - **View:** HTML files (`register.html`, `login.html`, etc.) for user interaction.
@@ -74,24 +74,24 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
     - Handles user registration and authentication by processing form data, performing database operations, and managing responses.
     - Demonstrates modular structure, clear separation of concerns, and deployment on Tomcat using annotation-based configuration.
 
-14. SpringWebMvc **Spring MVC-Based Web Application**
+14. **SpringWebMvc - Spring MVC-Based Web Application**
 
 	- Follows a clean, layered architecture with Spring Web MVC, separating concerns across presentation (JSP views), business (service logic, ready for extension), and data layers (prepared for future integration).
 	- `web.xml` acts as the Front Controller, directing requests to `MyController`, which maps and handles specific routes using annotation-based configuration.
 	- The `myds-servlet` view resolver translates logical view names from the controller into JSP files located in the views directory, ensuring flexible rendering of user interfaces.
 	- The modular structure enhances maintainability, scalability, and supports straightforward expansion for future business logic and data access needs.
-15. SpringWebMvc2 **Spring MVC-Based Web Application**
+15. **SpringWebMvc2 - Spring MVC-Based Web Application**
 	- Implements a clean, layered architecture with Spring Web MVC, separating concerns across the presentation layer (JSP views), controller logic, and business/data layers (ready for future extensions).
 	- `web.xml` configures the Front Controller (`DispatcherServlet`) to route incoming requests to `MyController`, which manages specific paths using annotation-based configurations.
 	- Logical view names returned by controller methods are resolved into JSP files by the view resolver, allowing for flexible and maintainable user interface rendering.
 	- Annotation-driven modular structure (`@Controller`, `@GetMapping`, `@PostMapping`, `@RequestMapping`, `@ModelAttribute`) enhances maintainability and scalability, supporting easy expansion for additional business logic or data integration.
-16. SpringBootStarter1 **Spring Boot Web Application**
+16. **SpringBootStarter1 - Spring Boot Web Application**
    	- Minimal Spring Boot (3.5.x) web app showcasing an annotation-driven MVC entry point using Spring Web, with auto-configuration reducing boilerplate.  
    	- Clean controller layer: a simple `@Controller` mapped to root ("/") using `@GetMapping` and `@ResponseBody` to return plain text directly to the client.  
    	- Auto-configured `DispatcherServlet` replaces the need for manual `web.xml` setup, with routes automatically detected via component scanning.  
    	- Supports extension to logical views (e.g., Thymeleaf, JSP) through view resolvers if needed, making it flexible for UI rendering.  
    	- Annotation-driven modular design using `@SpringBootApplication`, `@Controller`, and mapping annotations (`@GetMapping`, `@PostMapping`, etc.), ready for scaling with additional layers (`@Service`, `@Repository`) and dependency injection.  
-17. SpringBootStarter2 **Spring Boot Starter with Beans and Bootstrap**
+17. **SpringBootStarter2 - Spring Boot Starter with Beans and Bootstrap**
    	- Minimal Spring Boot starter project demonstrating basic configuration, bean definitions, and application bootstrap.
    	- Entry point with `@SpringBootApplication` for auto-configuration and component scanning.
    	- Java-based configuration using `@Configuration` and `@Bean` methods for defining beans.
@@ -100,7 +100,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    	- Simple POJO model: `Student` (name, age, course) with a display method.
    	- Organized under conventional package structure `in.gupta.main.springbootstarter2` for scanning.
    	- Maven-based build, includes wrapper scripts (`mvnw`, `mvnw.cmd`) for easy execution.
-18. SpringBootStarterJDBCCrud **Spring Boot JDBC CRUD Application**
+18. **SpringBootStarterJDBCCrud - Spring Boot JDBC CRUD Application**
    	- Minimal Spring Boot project demonstrating CRUD operations using Spring JDBC (`JdbcTemplate`) with MySQL.
    	- Purpose: Provide a simple, lightweight alternative to JPA/Hibernate by using direct JDBC.
    	- Tech Stack:
@@ -111,7 +111,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    	- Data Access Layer: DAO class with hand-written SQL queries and try/catch handling for inserts, updates, deletes, and retrieval.
    	- Mapping: Custom `RowMapper` implementation to map `ResultSet` rows into `User` objects.
    	- Execution: `CommandLineRunner` triggers CRUD operations at application startup, with examples for insert, update, delete, fetch one, and fetch all users.
-19. SpringMavenHibernate **Hibernate + Maven CRUD Application**
+19. **SpringMavenHibernate - Hibernate + Maven CRUD Application**
    	- Minimal Java console project using plain Hibernate (without Spring) to perform CRUD operations.
    	- Tech Stack:
      		- Java
@@ -128,7 +128,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    	- CRUD Examples:
      		- `App.java` demonstrates insert, read, update, delete operations using `Session` and `Transaction` API (commented/active code snippets).
    	- Target DB: `jdbc:mysql://localhost:3306/hibernate_db` (username: `root`, password required locally).
-20. SpringBootHibernate **Spring Boot + Hibernate ORM Application**
+20. **SpringBootHibernate - Spring Boot + Hibernate ORM Application**
    	- A minimal Spring Boot application demonstrating direct Hibernate integration (without Spring Data JPA) for ORM against a MySQL database.
    	- Tech Stack:
      		- Java 21
@@ -148,7 +148,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
      		- Explicit Hibernate usage inside a Spring Boot context.
      		- Clean separation of entity + persistence logic.
    	- Target DB: `jdbc:mysql://localhost:3306/hibernate_db` (username: `root`, local password required).
-21. SpringBootHibernate2 **Spring Boot + Hibernate (XML Config)**
+21. **SpringBootHibernate2 - Spring Boot + Hibernate (XML Config)**
    	- Minimal Spring Boot project showcasing direct Hibernate ORM integration with MySQL, configured via classic `hibernate.cfg.xml` instead of Spring Data JPA.
    	- Tech Stack:
      		- Java 21
@@ -168,7 +168,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
      		- Retains flexibility of XML-based configuration with modern Spring Boot runtime.
      		- Clean separation between application bootstrap and ORM persistence logic.
    	- Target DB: `jdbc:mysql://localhost:3306/hibernate_db` (username: `root`, local password required).
-22. SpringBootDataJPA **Spring Boot + Spring Data JPA Application**
+22. **SpringBootDataJPA - Spring Boot + Spring Data JPA Application**
    	- Minimal Spring Boot project showcasing layered architecture with Spring Data JPA for CRUD operations on a Student domain.
    	- Tech Stack:
      		- Java 21
@@ -192,7 +192,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
      		- Schema auto-generation handled by JPA/Hibernate (based on `application.properties`).
      		- Easy extension for custom queries using method naming or `@Query`.
    	- Target DB: `jdbc:mysql://localhost:3306/<your_db>` (credentials configured in `application.properties`).
-23. SpringBootWebApp1 **Spring Boot MVC Web Application**
+23. **SpringBootWebApp1 - Spring Boot MVC Web Application**
    	- Simple Spring Boot MVC project demonstrating user registration and login flow with JSP views and MySQL persistence.
    	- Tech Stack:
      		- Java 21
@@ -213,7 +213,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
      		- Simple authentication: plain text email + password validation in the service layer.
      		- Session management: HTTP session invalidated upon logout for basic security.
    	- Target DB: `jdbc:mysql://localhost:3306/<your_db>` (credentials in `application.properties`).
-24. SpringBootThymeleaf **Spring Boot + Thymeleaf Web Application**
+24. **SpringBootThymeleaf - Spring Boot + Thymeleaf Web Application**
    	- Minimal Spring Boot MVC project demonstrating server-side rendering with Thymeleaf templates.
    	- Tech Stack:
      		- Java 17+ (compatible with higher JDKs if adjusted)
@@ -236,7 +236,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
    	- Purpose:
      		- Educational demo to illustrate Spring MVC + Thymeleaf integration.
      		- Provides a lightweight foundation for building dynamic server-side rendered applications.
-25. SpringBootRegLogin **Spring Boot + Thymeleaf Registration & Login**
+25. **SpringBootRegLogin - Spring Boot + Thymeleaf Registration & Login**
    	- Minimal Spring Boot 3 MVC application implementing an end-to-end authentication flow (register → login → profile → logout).
    	- Tech Stack:
      		- Java 21
@@ -257,7 +257,7 @@ Additionally, the repository includes a folder named **`Spring Jars`** which con
      		- `GET /register`, `POST /regiForm`
      		- `GET /login`, `POST /loginForm`
      		- `GET /logout`
-26. SpringBootRestfulWS **Spring Boot RESTful Web Service**
+26. **SpringBootRestfulWS - Spring Boot RESTful Web Service**
    	- Minimal REST API built with Spring Boot, exposing CRUD operations for a User resource persisted with Spring Data JPA and MySQL.
    	- Tech Stack:
      		- Java
