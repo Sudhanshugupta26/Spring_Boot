@@ -4,7 +4,7 @@ import in.gupta.Student.Address;
 import in.gupta.Student.Student;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
+
 
 @Configuration
 public class JavaConfigFile {
